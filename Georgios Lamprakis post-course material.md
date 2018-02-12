@@ -29,19 +29,19 @@ Since the clock was ticking I didn't have enough time to investigate thoroughly 
 
 ### Resources
 * Java
-* [JAVA docs](https://docs.oracle.com/javase/tutorial/)
-* [Udemy Course](https://www.udemy.com/java-the-complete-java-developer-course/) - used as supplement to JavaDocs
+  * [JAVA docs](https://docs.oracle.com/javase/tutorial/)
+  * [Udemy Course](https://www.udemy.com/java-the-complete-java-developer-course/) - used as supplement to JavaDocs
 * Spock
-* [Java Tested with Spock - Konstantinos Kapelonis](https://www.manning.com/books/java-testing-with-spock)
+  * [Java Tested with Spock - Konstantinos Kapelonis](https://www.manning.com/books/java-testing-with-spock)
 
 * Spring / Spring Boot
-* [Official Spring Guides by Pivotal](http://spring.io/guides)
-* [Spring Framework Master Class - Beginner to Expert](https://www.udemy.com/spring-tutorial-for-beginners/)
-* Introduction to Spring Framework in 10 steps
-* Spring Framework in depth
-* Unit in 5 Steps
-* Mockito in 5 Steps
-* Unit Testing with Spring Framework
+  * [Official Spring Guides by Pivotal](http://spring.io/guides)
+  * [Spring Framework Master Class - Beginner to Expert](https://www.udemy.com/spring-tutorial-for-beginners/)
+    * Introduction to Spring Framework in 10 steps
+    * Spring Framework in depth
+    * Unit in 5 Steps
+    * Mockito in 5 Steps
+    * Unit Testing with Spring Framework
 
 [...]
 
