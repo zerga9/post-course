@@ -45,7 +45,7 @@ Since the clock was ticking I didn't have enough time to investigate thoroughly 
     * Unit Testing with Spring Framework
 
 
-** Further reading **
+**Further reading**
 
 * Effective Java - Joshua Bloch (*This is a must have after you familiarise yourself with Java*)
 * Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
