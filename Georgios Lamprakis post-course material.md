@@ -29,6 +29,7 @@ Since the clock was ticking I didn't have enough time to investigate thoroughly 
 
 ### Resources
 * Java
+  * [Free Coursera Course](https://www.coursera.org/learn/object-oriented-java) - great for all the basic concepts of inheritance and polymorphism in java, in the concept of a real world project (part of [specialisation](https://www.coursera.org/specializations/java-object-oriented) if you have time, it might be useful to take more courses on this specialisasion)
   * [JAVA docs](https://docs.oracle.com/javase/tutorial/)
   * [Udemy Course](https://www.udemy.com/java-the-complete-java-developer-course/) - used as supplement to JavaDocs
 * Spock
@@ -43,7 +44,12 @@ Since the clock was ticking I didn't have enough time to investigate thoroughly 
     * Mockito in 5 Steps
     * Unit Testing with Spring Framework
 
-[...]
+
+** Further reading **
+
+* Effective Java - Joshua Bloch (*This is a must have after you familiarise yourself with Java*)
+* Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+
 
 
 
