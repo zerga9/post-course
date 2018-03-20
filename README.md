@@ -1,15 +1,9 @@
-# post-course
+# Post Course at Makers Academy
 
-## React
+## Contents
 
-* The best introduction and source of information is in the official [React documentation](https://reactjs.org/). I recommend working through their tic-tac-toe tutorial to understand basic concepts behind React.
-* I then moved onto the React tutorials by Cory House on [Pluralsight](https://app.pluralsight.com/library/), which seemed to be the move comprehensive of those I looked through. Some tutorials I initially looked at still used ES5, which was momentarily confusing. Try to find a tutorial which closely matches the official React documentation so you have that as a reference point.
-* [This](https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents) includes Redux and enzyme testing, which is great for understanding how several parts to an app fit together.
+* [Placement Projects](https://github.com/makersacademy/post-course/placement-projects) is the landing page for information about project work after graduation.
 
-## GraphQL
+* [Learning Material](https://github.com/makersacademy/post-course/learning) is where Makers graduates record tips on useful and insightful material for getting to grips with new technologies.
 
-* [This](https://www.youtube.com/watch?v=lAJWHHUz8_8&t=1268s) video was a useful introduction
-
-## General
-
-* I returned to the old classic [Codewars](www.codewars.com) when I was short of time. It's been a great way to mix-up my activity, particularly if I've been doing a lot of documentation reading and just want to do some short, sharp coding. It was also useful for me as a way of forcing me to use ES6 features, which I hadn't consistently done through Makers.
+* [Exercises](https://github.com/makersacademy/post-course/exercises) is where we collect workshops and instructions for practical exercise to help with learning.
