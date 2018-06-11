@@ -34,10 +34,11 @@ describe("Javascript arrays", function() {
     });
   });
 
+
   describe("countByGenderAndMinimumAge", function() {
 
-    it ("Delete all females who are at least 5 years old", function() {
-      var count = countByGenderAndMinimumAge(mammals, 'male', 9);
+    it ("Count all females who are at least 9 years old", function() {
+      var count = countByGenderAndMinimumAge(mammals, 'female', 9);
 
       expect(count).toEqual(1);
     });
@@ -46,7 +47,7 @@ describe("Javascript arrays", function() {
 
   describe("deleteByGenderAndMinimumAge", function() {
 
-    it ("Delete all females who are at least 5 years old", function() {
+    it ("Delete all females who are at least 6 years old", function() {
       deleteByGenderAndMinimumAge(mammals, 'female', 6);
 
       expect(mammals).toEqual([
@@ -56,7 +57,8 @@ describe("Javascript arrays", function() {
     });
   });
 
-  describe("getListOfNamesInAlphabeticalOrder", function() {
+
+  describe("getListOfNamesInArray", function() {
 
     it ("Gets a list of names as an array", function() {
       var animals = getListOfNamesInArray(mammals);
@@ -65,14 +67,16 @@ describe("Javascript arrays", function() {
     });
   });
 
-  describe("getCommaDelimitedList", function() {
 
-    it ("Gets a list of names as an array", function() {
+  describe("getListOfNamesInCommaDelimitedString", function() {
+
+    it ("Gets a list of names as a comma delimited list", function() {
       var animals = getListOfNamesInCommaDelimitedString(mammals);
 
       expect(animals).toEqual('Martin, Cheryl, Alice, Harry');
     });
   });
+
 
   describe("getListOfNamesForSubCategories", function() {
 
@@ -82,4 +86,5 @@ describe("Javascript arrays", function() {
       expect(animals).toEqual(['Alice', 'Alfie', 'Cheryl', 'Ginnie', 'Harry', 'Lupa', 'Martin', 'Severus']);
     });
   });
+
 })

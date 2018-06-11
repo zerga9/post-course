@@ -18,6 +18,6 @@ function getListOfNamesInCommaDelimitedString(animals) {
 
 }
 
-function getListOfNamesForSubCategories(animals) {
+function getListOfNamesInAlphabeticalOrder(animals) {
 
 }
