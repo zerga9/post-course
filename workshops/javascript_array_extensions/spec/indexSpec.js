@@ -34,7 +34,6 @@ describe("Javascript arrays", function() {
     });
   });
 
-
   describe("countByGenderAndMinimumAge", function() {
 
     it ("Count all females who are at least 9 years old", function() {
@@ -77,14 +76,12 @@ describe("Javascript arrays", function() {
     });
   });
 
-
   describe("getListOfNamesForSubCategories", function() {
 
     it ("Gets a list of all animals in a single array", function() {
       var animals = getListOfNamesInAlphabeticalOrder([mammals, reptiles, birds]);
 
-      expect(animals).toEqual(['Alice', 'Alfie', 'Cheryl', 'Ginnie', 'Harry', 'Lupa', 'Martin', 'Severus']);
+      expect(animals).toEqual(['Alfie', 'Alice', 'Cheryl', 'Ginnie', 'Harry', 'Lupa', 'Martin', 'Severus']);
     });
   });
-
 })
