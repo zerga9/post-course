@@ -1,0 +1,17 @@
+<div id="tasks">
+</div>
+
+<script src="src/network-service.js"></script>
+<script src="src/tasks-api.js"></script>
+<script src="src/task-model.js"></script>
+<script src="src/tasks-repository.js"></script>
+<script src="src/task-renderer.js"></script>
+
+<script>
+    var networkService = new NetworkService();
+    var api = new TasksApi('/', networkService);
+    var repository = new TasksRepository(api);
+    var renderer = new TaskRenderer(repository, document.getElementById("tasks"));
+    renderer.renderTasks();
+</script>
+
