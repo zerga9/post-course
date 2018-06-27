@@ -4,7 +4,8 @@ function getByGenderAndMinimumAge(animals, gender, age) {
 }
 
 function countByGenderAndMinimumAge(animals, gender, age) {
-
+  var result = animals.filter(animal => animal.gender == 'female' && animal.age >= 9);
+  return result.length
 }
 
 function deleteByGenderAndMinimumAge(animals, gender, age) {
