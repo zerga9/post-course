@@ -1,5 +1,6 @@
 function getByGenderAndMinimumAge(animals, gender, age) {
-
+  var result = animals.filter(animal => animal.gender == 'female' && animal.age >= 8);
+  return result
 }
 
 function countByGenderAndMinimumAge(animals, gender, age) {
