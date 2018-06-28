@@ -29,6 +29,11 @@ function getListOfNamesInArray(animals) {
 }
 
 function getListOfNamesInCommaDelimitedString(animals) {
+  var result = []
+  animals.forEach(function(animal){
+    result.push(animal.name)
+  })
+return result.join(', ')
 
 }
 
