@@ -9,8 +9,15 @@ function countByGenderAndMinimumAge(animals, gender, age) {
 }
 
 function deleteByGenderAndMinimumAge(animals, gender, age) {
+  animals.map(function(animal, index) {
+  return (animal.age>= 6 && animal.gender == 'female') ? index : -1;
+}).filter(function(index) {
+  return index >= 0;
+}).reverse().forEach(function(index) {
+  animals.splice(index,1);
+});
+    }
 
-}
 
 function getListOfNamesInArray(animals) {
 
