@@ -39,4 +39,13 @@ return result.join(', ')
 
 function getListOfNamesInAlphabeticalOrder(animals) {
 
+  var result = []
+  animals.forEach(function(animal){
+    animal.forEach(function(x){
+      result.push(x.name)
+    })
+  })
+  console.log(result.sort())
+  return result.sort()
+
 }
